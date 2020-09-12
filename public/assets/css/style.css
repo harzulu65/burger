@@ -1,0 +1,55 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #8c9091;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container::after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 500;
+}
+
+.eatBurger {
+  background-color: #1d88e5;
+  text-align: center;
+  float: left;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.waiting {
+  background-color: #1d88e5;
+  text-align: center;
+  float: right;
+  width: max-content;
+  height: 300px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.footer {
+  text-align: center;
+  background-color: #f49725;
+}
